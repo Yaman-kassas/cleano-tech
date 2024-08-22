@@ -1,0 +1,29 @@
+$mantine-breakpoint-xs : 30rem;
+$mantine-breakpoint-md : 56.25rem;
+$mantine-breakpoint-sm : 40.625rem;
+$mantine-breakpoint-lg : 75rem;
+
+.inputBox {
+    margin-top: 40px;
+    gap: 46px;
+    @media (min-width:  $mantine-breakpoint-md) and (max-width: $mantine-breakpoint-lg) {
+        max-width: 100%;
+        gap: 54px
+     }
+    @media (min-width:  $mantine-breakpoint-sm) and (max-width: $mantine-breakpoint-md) {
+        max-width: 100%;
+        gap: 56px
+     }
+    @media (min-width:  $mantine-breakpoint-xs) and (max-width: $mantine-breakpoint-sm) {
+        max-width: 100%;
+        gap: 80px
+     }
+}
+
+.gridGap {
+    gap: 26.67px;
+    @media (max-width: $mantine-breakpoint-sm) {
+       
+        gap: 16px
+     }
+}

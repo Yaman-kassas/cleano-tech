@@ -1,0 +1,73 @@
+.inputBox {
+  gap: 214px;
+}
+@media (min-width: 56.25rem) and (max-width: 75rem) {
+  .inputBox {
+    max-width: 100%;
+    gap: 221px;
+  }
+}
+@media (min-width: 40.625rem) and (max-width: 56.25rem) {
+  .inputBox {
+    max-width: 100%;
+    gap: 210px;
+  }
+}
+@media (min-width: 30rem) and (max-width: 40.625rem) {
+  .inputBox {
+    max-width: 100%;
+    gap: 236px;
+  }
+}
+
+.formBox {
+  gap: 32px;
+  width: 100%;
+}
+@media (min-width: 56.25rem) and (max-width: 75rem) {
+  .formBox {
+    gap: 24px;
+  }
+}
+
+.formItemsBox {
+  gap: 32px;
+}
+@media (min-width: 56.25rem) and (max-width: 75rem) {
+  .formItemsBox {
+    gap: 24px;
+  }
+}
+
+.checkBoxLabel {
+  color: rgba(35, 49, 73, 0.5);
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.input {
+  background: rgba(73, 133, 187, 0.03);
+  box-shadow: 0px 4px 4px rgba(111, 111, 111, 0.16);
+  height: 48px;
+}
+
+.label {
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #233149;
+}
+
+.wrapper {
+  width: 80px;
+}
+@media (max-width: 40.625rem) {
+  .wrapper {
+    width: 60px;
+  }
+}
+
+.section {
+  margin-right: 10px;
+}/*# sourceMappingURL=styles.module.css.map */

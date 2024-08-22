@@ -1,0 +1,27 @@
+.label {
+  padding-left: 16px;
+  color: #233149;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.radio {
+  border: 0.8px #233149 solid;
+  outline: 1px solid #233149;
+  outline-offset: 5px;
+  width: 18px;
+  height: 18px;
+  box-shadow: 0px 3px 6px rgba(57, 57, 57, 0.34);
+  cursor: pointer;
+}
+
+.inner {
+  position: static;
+}
+
+.radioGroupLabel {
+  color: #4985BB;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}/*# sourceMappingURL=styles.module.css.map */
